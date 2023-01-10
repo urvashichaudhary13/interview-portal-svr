@@ -1,0 +1,26 @@
+{
+  "name": "interview-portal-svr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run nodemon",
+    "nodemon": "nodemon ./dist/src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/urvashichaudhary13/interview-portal-svr.git"
+  },
+  "author": "Urvashi Chaudhary",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/urvashichaudhary13/interview-portal-svr/issues"
+  },
+  "homepage": "https://github.com/urvashichaudhary13/interview-portal-svr#readme",
+  "dependencies": {
+    "@apollo/server": "^4.3.0",
+    "graphql": "^16.6.0",
+    "nodemon": "^2.0.20"
+  }
+}
