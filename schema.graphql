@@ -1,0 +1,7 @@
+type Query {
+    getHealthCheck: ResponseGetHealthCheck
+}
+
+type ResponseGetHealthCheck{
+    data: JSON
+}
